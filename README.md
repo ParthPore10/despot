@@ -148,6 +148,11 @@ target_link_libraries("YOUR_PROJECT_NAME"
 ```
 
 ## More Resources
+
+**Pocman scenario-count experiment:** [experiments/pocman_k](experiments/pocman_k/README.md)
+provides a seeded K sweep measuring reward, full planning latency, tree/policy
+size, and action stability at fixed beliefs, with raw CSVs and plots.
+
 **HyP-DESPOT**: A parallel belief tree search algorithm that integrates DESPOT with both CPU and GPU parallelization. Check out the [paper](https://journals.sagepub.com/doi/abs/10.1177/0278364920937074) and the [code](https://github.com/AdaCompNUS/despot_tutorials.git).
 
 ## Acknowledgements
@@ -164,4 +169,3 @@ Please use the issue tracker.
 2017/03/07 Public release. Revised documentation.
 
 2018/09/20 New API release.
-
